@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './components/hello.component';
+import { ListFontsComponent } from './components/list-fonts.component';
 
 @NgModule({
   imports: [ 
@@ -12,7 +12,7 @@ import { HelloComponent } from './components/hello.component';
   ],
   declarations: [
      AppComponent, 
-    HelloComponent 
+     ListFontsComponent 
   ],
   bootstrap:    [ AppComponent ]
 })
